@@ -20,6 +20,9 @@ public class Calculator {
     }
 
     public static long divideTwoNumbers(int firstNumber, int secondNumber) {
+        if (secondNumber == 0) {
+            return 0;
+        }
         return firstNumber / secondNumber;
     }
 }
